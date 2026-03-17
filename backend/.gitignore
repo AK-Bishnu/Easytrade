@@ -1,6 +1,7 @@
 # Env file (VERY IMPORTANT)
 .env
 
+
 ca.pem
 
 # Virtual environment
