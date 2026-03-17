@@ -79,6 +79,11 @@ DATABASES = {
         'PASSWORD': os.getenv("DB_PASSWORD"),
         'HOST': os.getenv("DB_HOST"),
         'PORT': os.getenv("DB_PORT"),
+        'OPTIONS': {
+            'ssl': {
+                'ca':  os.path.join(BASE_DIR, os.environ.get('DB_SSL_CA')),
+            }
+        },
     }
 }
 
