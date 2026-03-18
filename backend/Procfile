@@ -1,0 +1,1 @@
+web: gunicorn easytrade_backend.wsgi

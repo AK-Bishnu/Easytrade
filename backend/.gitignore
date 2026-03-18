@@ -1,7 +1,7 @@
 # Env file (VERY IMPORTANT)
 .env
 
-
+*.sql
 ca.pem
 
 # Virtual environment
