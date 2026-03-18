@@ -15,22 +15,22 @@ class _HomeHeroBannerState extends State<HomeHeroBanner> {
     _BannerItem(
       title: "Buy & Sell with Confidence",
       subtitle: "Your trusted local marketplace",
-      animation: "animations/splash.json",
+      animation: "assets/animations/splash.json",
     ),
     _BannerItem(
       title: "Find Amazing Deals",
       subtitle: "Discover great products near you",
-      animation: "animations/a4.json",
+      animation: "assets/animations/a4.json",
     ),
     _BannerItem(
       title: "List Products in Seconds",
       subtitle: "Sell items quickly and easily",
-      animation: "animations/ecommerce.json",
+      animation: "assets/animations/ecommerce.json",
     ),
     _BannerItem(
       title: "Turn Items into Cash",
       subtitle: "Sell what you don't need anymore",
-      animation: "animations/a3.json",
+      animation: "assets/animations/a3.json",
     ),
   ];
 
